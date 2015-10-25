@@ -1,0 +1,102 @@
+.button_detail {
+	box-shadow:inset 0px 0px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c20835), color-stop(1, #af002c) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c20835 100% );
+	background-color:#f24537;
+	border-top-left-radius:5px;	
+	border-top-right-radius:5px;	
+	border-bottom-right-radius:5px;	
+	border-bottom-left-radius:5px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:14px;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:90px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 0px 0px #af002c;
+}
+.button_detail:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #af002c), color-stop(1, #f24537) );
+	background:-moz-linear-gradient( center top, #af002c 5%, #f24537 100% );
+	background-color:#af002c;
+}
+
+.button_detail:active {
+	position:relative;
+	top:1px;
+}
+
+.button_refresh {
+	border:1px #b6002d solid;
+	border-radius:5px 5px 5px 5px;
+	height:25px;
+	line-height:25px;
+	width:25px;
+	text-align:center;
+	display:inline-block;
+	color:#ffffff;
+	background-image: url(img/button_1.png);
+	background-repeat:no-repeat;
+	background-position:5px 8px;
+}
+
+.button_refresh:hover {
+	background-color:#e3e3e3;
+}
+
+.button_refresh:active {
+	position:relative;
+	top:1px;
+}
+
+
+.button_star{
+	border:1px #b6002d solid;
+	border-radius:5px 5px 5px 5px;
+	height:25px;
+	line-height:25px;
+	width:25px;
+	text-align:center;
+	display:inline-block;
+	color:#ffffff;
+	background-image: url(img/button_2.png);
+	background-repeat:no-repeat;
+	background-position:5px 5px;
+}
+
+.button_star:hover {
+	background-color:#e3e3e3;
+}
+
+.button_star:active {
+	position:relative;
+	top:1px;
+}
+
+.header_large_block_right_p2 input[type="text"] {
+  background-color : #d9b2be; 
+  border:1px white solid;
+  border-radius:5px 5px 5px 5px;
+  height:21px;
+  width:110px;
+  margin-left:20px;
+  padding-left:20px;
+  color:black;
+  float:left;
+}
+
+.header_large_block_right_p2 input[type="submit"] {
+	border:none;
+	width:32px;
+	height:23px;
+	margin-left:-30px;
+	text-decoration:none;
+	background:transparent;
+	background-image: url(img/button_3.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+
